@@ -51,6 +51,21 @@ crate:
 		NoBaseSelectionShares: 150
 		ValidFactions: america, germany, england, france, korea
 		Units: amcv
+	GrantExternalConditionCrateAction@fpower:
+		SelectionShares: 10
+		Effect: fpower
+		Notification: gcrafire.wav
+		Condition: crate-firepower
+	GrantExternalConditionCrateAction@armor:
+		SelectionShares: 10
+		Effect: armor
+		Notification: gcraarmo.wav
+		Condition: crate-armor
+	GrantExternalConditionCrateAction@speed:
+		SelectionShares: 10
+		Effect: speed
+		Notification: gcraspee.wav
+		Condition: crate-armor
 
 amcv.colorpicker:
 	Inherits: amcv
